@@ -99,7 +99,7 @@ void EXTI0_1_IRQHandler(void)
 }
 
 
-void calibration_mode(void)
+void calibration_mode(void)   //function is not called
 {
 	uart2_print("Enter few random dots for calibration\n\r");
 	uint16_t gap=0;
